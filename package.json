@@ -1,0 +1,32 @@
+{
+  "name": "eslint-off-rules",
+  "version": "1.0.0",
+  "description": "Returns an ESLint rules config object of all provided `ruleId`s set to \"off\"",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "standard",
+    "unit": "ava",
+    "test": "npm run lint && npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightyiam/eslint-off-rules.git"
+  },
+  "keywords": [
+    "eslint",
+    "off",
+    "ignore",
+    "rules",
+    "config"
+  ],
+  "author": "Shahar Or <mightyiampresence@gmail.com> (mightyiam)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mightyiam/eslint-off-rules/issues"
+  },
+  "homepage": "https://github.com/mightyiam/eslint-off-rules#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "standard": "^8.6.0"
+  }
+}
